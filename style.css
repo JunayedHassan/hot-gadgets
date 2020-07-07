@@ -1,0 +1,148 @@
+.navbar{
+    padding-top: 15px;
+}
+.navbar a{
+    color: grey;
+    font-weight: 600;
+}
+.navbar li{
+    padding-bottom: 35px;
+}
+.navbar img{
+    width: 170px;
+}
+a:hover{
+    color: black;
+}
+.carousel-caption {
+    color:black;
+}
+.carousel-item{
+    padding: 0px 0px;
+}
+
+button{
+    background-color: black;
+    border-radius: 10px;
+    border:none;
+    color:white;
+    padding: 7px 20px;
+}
+
+button:hover{
+    background-color: slategrey;
+}
+.carousel-indicators{
+    padding-top: 100px;
+}
+
+.carousel-indicators li{
+    background-color:grey;
+    padding: .2%;
+    width: 8px;
+    height: 6px;
+    border: none;
+    border-radius: 90px;
+    
+}
+
+
+.carousel-indicators .active{
+    background-image: linear-gradient(to right, orange 0%, yellow 100%);
+    width: 25px;
+}
+.left p{
+    padding-right: 100px;
+}
+.gap{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.seeAll a{
+    color: orange;
+    font-size: medium;
+    font-weight: 600;
+    text-decoration: none;
+}
+.seeAll a:hover{
+    color: palevioletred;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px .1px  grey;
+    padding: 40px 30px;
+}
+.card img{
+    width: 90%;
+}
+.card-body{
+    text-align: center;
+}
+.card-body .card-title{
+    padding-top: 20px;
+}
+.card-body .card-text{
+    color: grey;
+    font-size: medium;
+}
+.price{
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-footer{
+    background-color: white;
+    border:none;
+    text-align: center;
+    padding: 0;
+}
+.lasttitle{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.underline{
+    position: relative;
+}
+
+.underline::after{
+    
+    content: '';
+    background-image: linear-gradient(to right, rgb(243, 204, 75) 0%, orange 100%);
+    position: absolute;
+    border-radius: 10px;
+    width: 75px;
+    height: 5px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 35px;
+    
+}
+
+.col-md-6 img{
+    width: 100%;
+}
+
+.shadowbox{
+    margin: 20px 0;
+    height: 50%;
+    width: 100%;
+    padding: 20px;
+    border: none;
+    box-shadow: 0 0 15px 1px lightgrey;
+    text-align: center;
+    
+}
+.shadowbox img{
+    width: 75%;
+    margin-top:20px;
+}
+.block{
+    padding-top: 10px;
+    bottom:0;
+}
+
+.extramargin{
+    margin-bottom: 30px;
+}
