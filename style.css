@@ -70,7 +70,7 @@ button:hover{
 .card{
     border: none;
     border-radius: 10px;
-    box-shadow: 0 0 10px .1px  grey;
+    box-shadow: 0 0 15px 1px lightgrey;
     padding: 40px 30px;
 }
 .card img{
@@ -132,11 +132,12 @@ button:hover{
     border: none;
     box-shadow: 0 0 15px 1px lightgrey;
     text-align: center;
-    
+    border-radius: 10px;
 }
 .shadowbox img{
     width: 75%;
     margin-top:20px;
+    
 }
 .block{
     padding-top: 10px;
